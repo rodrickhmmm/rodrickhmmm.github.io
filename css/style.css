@@ -9,13 +9,31 @@
 
 
 
-@media screen and (max-width: 600px) {
-}    
-
 #h {
-  color: rgb(235, 236, 238); 
-  font-size: 150px; 
-  text-align: center; 
-  padding: 300px; 
+  color: rgb(235, 236, 238);
+  font-size: 150px;
+  text-align: center;
+  padding: 300px;
   font-family: "Benzin";
+}
+
+@media (max-width: 1200px) {
+  #h {
+    font-size: 100px;
+    padding: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #h {
+    font-size: 75px;
+    padding: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #h {
+    font-size: 50px;
+    padding: 50px;
+  }
 }
