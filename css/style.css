@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   #h {
     font-size: 75px;
     padding-top: 300px;
