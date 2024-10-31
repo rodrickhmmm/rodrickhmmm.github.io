@@ -30,3 +30,9 @@
     padding-top: 300px;
   }
 }
+
+#bg{
+  background-color: #060605; 
+  position: relative; 
+  z-index: 1;"
+}
