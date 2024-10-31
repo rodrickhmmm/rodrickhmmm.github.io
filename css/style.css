@@ -65,3 +65,10 @@
     padding-top: 300px;
   }
 }
+
+@media (max-width: 490px) {
+  #h {
+    font-size: 40px;
+    padding-top: 300px;
+  }
+}
