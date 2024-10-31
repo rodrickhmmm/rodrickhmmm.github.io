@@ -11,22 +11,57 @@
 
 #h {
   color: rgb(235, 236, 238);
-  font-size: 200px;
   text-align: center;
   padding-top: 300px;
+  font-size: 200px;
   font-family: "Benzin";
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 999px) {
   #h {
-    font-size: 100px;
-    padding: 200px;
+    font-size: 140px;
+    padding-top: 300px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   #h {
-    font-size: 75px;
+    font-size: 150px;
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #h {
+    font-size: 200px;
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 930px) {
+  #h {
+    font-size: 120px;
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  #h {
+    font-size: 100px;
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 660px) {
+  #h {
+    font-size: 80px;
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  #h {
+    font-size: 60px;
     padding-top: 300px;
   }
 }
