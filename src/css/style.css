@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Benzin';
+  src: url('fonts/Benzin-Semibold.woff2') format('woff2'),
+       url('fonts/Benzin-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+#h {
+  color: rgb(235, 236, 238);
+  font-size: 200px;
+  text-align: center;
+  padding-top: 300px;
+  font-family: "Benzin";
+}
+
+@media (max-width: 1200px) {
+  #h {
+    font-size: 100px;
+    padding: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  #h {
+    font-size: 75px;
+    padding-top: 300px;
+  }
+}
