@@ -16,3 +16,13 @@
   font-size: 12vw; 
   font-family: "Benzin";
 }
+
+#downbox{
+  background-color: #060605;  
+  position: relative;  
+  z-index: 1;
+}
+
+svg{
+  position:relative;  
+}
