@@ -21,7 +21,7 @@
 #h {
   color: rgb(235, 236, 238);
   text-align: center;
-  padding-top: 250px;
+  padding-top: 230px;
   font-size: 12vw; 
   font-family: "Benzin";
 }
@@ -29,8 +29,15 @@
 #j {
   color: #dfecf9;
   text-align: center;
-  font-size: 3vw; 
+  font-size: 4vw; 
   font-family: "RFDewi";
+}
+
+.square {
+  height: 5px;
+  border-radius: 25px;
+  width: 20px;
+  background-color: #437ef4;
 }
 
 #downbox{
@@ -42,3 +49,14 @@
 svg{
   position:relative;  
 }
+
+@media screen and (max-width:800px){
+  #j{
+    white-space: pre-wrap;
+    font-size: 6vw;
+  }
+  #h{
+    font-size: 14vw;
+  }
+}
+
