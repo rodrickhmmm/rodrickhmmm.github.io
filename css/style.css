@@ -34,10 +34,8 @@
 }
 
 .square {
-  height: 5px;
-  border-radius: 25px;
-  width: 20px;
-  background-color: #437ef4;
+  color: #437ef4;
+  font-size: 4vw;
 }
 
 #downbox{
@@ -57,6 +55,9 @@ svg{
   }
   #h{
     font-size: 14vw;
+  }
+  .square{
+    display:none;
   }
 }
 
