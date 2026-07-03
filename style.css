@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background: linear-gradient(340deg,rgb(12, 14, 17) 0%, rgb(24, 27, 33) 100%);
+    background-attachment: fixed;
+
+    font-size: 2.5vw;
+    color: rgb(219, 227, 227);
+}
+
+h1{
+    background: linear-gradient(90deg,rgb(120, 16, 175) 0%, rgb(106, 36, 236) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13vw;
+    margin-bottom: 0.5vw;
+}
+
+span{
+    color: rgb(221, 219, 224);
+    font-size: 3.5vw;
+    position: relative;
+    left: 1vw;
+}
+
+hr.rounded {
+  border-top: 8px solid #7b00ff;
+  border-radius: 5px;
+}
+
+.container{
+    align-items: left;
+    line-height: 1;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-40%, -30%);
+
+}
+
+.container2{
+    align-items: right;
+    text-align: right;
+    display:block;
+    line-height: 1;
+    font-weight: 900;
+    position: fixed;
+    top: 85%;
+    left: 85%;
+    transform: translate(-80%, -80%);
+    width: 50%;
+}
+
+.container2 p{
+    background: linear-gradient(90deg,rgb(164, 103, 250) 0%, rgb(78, 69, 243) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 20vw;
+        margin-bottom: 1vw;
+    }
+    span{
+        font-size: 5vw;
+        position: relative;
+        left: 0vw;
+    }
+
+    .container2{
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+}
