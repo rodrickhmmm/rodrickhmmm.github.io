@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
 
 body{
     font-family: 'JetBrains Mono', monospace;
@@ -11,26 +12,18 @@ body{
     overflow-y: hidden;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-body::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.page-wrap {
+.page-border-wrap {
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
   bottom: 0px;
-  padding: 20px;
-  border-radius: 10px;
-  overflow-y: scroll;
-  border-image: linear-gradient(90deg, rgb(120, 16, 175) 0%, rgb(106, 36, 236) 100%) 10%;
+  overflow:scroll;
+  border-image: linear-gradient(90deg, rgb(120, 16, 175) 0%, rgb(106, 36, 236) 100%) 1%;
   border-width: 0.4vw;
   border-style: solid;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 body::selection{
@@ -67,6 +60,9 @@ h1{
 .container-normal-text p{
     font-size: 2.5vw;
     font-weight: 700;
+    margin-top: 5vw;
+    margin-bottom: -3vw;
+    box-shadow: -5px 5px 0px rgb(48, 5, 134);
 }
 
 .container-normal-text a:link {
@@ -108,7 +104,7 @@ hr.rounded {
     display:block;
     line-height: 1;
     font-weight: 900;
-    position: fixed;
+    position: absolute;
     top: 85%;
     left: 85%;
     transform: translate(-80%, -80%);
@@ -140,9 +136,25 @@ hr.rounded {
     color: rgb(106,36,236); 
 }
 
-@media screen and (max-width: 800px){
+.container3 a {
+    margin-top: 70vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container3 a {
+    font-weight: 800;
+    background: linear-gradient(60deg, rgb(156, 107, 236) 0%, rgb(119, 70, 210) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 850px){
     .container{
-        top: 40%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         align-items: center;
@@ -180,5 +192,14 @@ hr.rounded {
     .container2 p i{
         font-size: 3vw;
         width: 100%;
+    }
+
+    .container-normal-text p{
+        font-size: 5vw;
+        padding-top: 3vw;
+    }
+
+    .container3{
+        font-size: 5vw;
     }
 }
