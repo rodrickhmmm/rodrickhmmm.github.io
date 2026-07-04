@@ -7,6 +7,16 @@ body{
 
     font-size: 2.5vw;
     color: rgb(219, 227, 227);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .page-wrap {
