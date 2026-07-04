@@ -30,14 +30,18 @@ body::selection{
 
 .typed-cursor {
     background: linear-gradient(180deg,rgb(145, 58, 226) 0%, rgb(84, 37, 225) 70%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: rgb(106,36,236); 
 }
 
 h1{
     background: linear-gradient(90deg,rgb(120, 16, 175) 0%, rgb(106, 36, 236) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: rgb(106,36,236); 
     font-size: 13vw;
     margin-bottom: 0.5vw;
 }
@@ -81,27 +85,32 @@ hr.rounded {
 
 .container2 p{
     background: linear-gradient(90deg,rgb(162, 111, 234) 0%, rgb(110, 43, 244) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: rgb(106,36,236); 
     font-weight: 600;
     font-size: 2vw;
     border: 0.1vw solid rgb(110, 43, 244);
     padding: 1vw;
     display: inline-block;
     margin-bottom: 0vw;
+    box-shadow: 8px 8px 0px rgb(48, 5, 134);
 }
 
 .container2 p i{
     font-size: 1.5vw;
     font-weight: 500;
     background: linear-gradient(90deg,rgb(73, 69, 133) 0%, rgb(67, 29, 143) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: rgb(106,36,236); 
 }
 
 @media screen and (max-width: 800px){
     .container{
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         align-items: center;
@@ -118,14 +127,14 @@ hr.rounded {
     }
 
     .container2{
-        top: 85%;
+        top: 76%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 70%;
     }
 
     .container2 p{
-        font-size: 4vw;
+        font-size: 4vw; 
         text-align: center;
     }
 
