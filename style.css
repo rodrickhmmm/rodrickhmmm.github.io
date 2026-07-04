@@ -117,11 +117,18 @@ hr.rounded {
         text-align: center;
     }
     h1{
-        font-size: 20vw;
+        font-size: 25vw;
         margin-bottom: 1vw;
     }
+
+    hr.rounded {
+        border-top: 1vw solid #7b00ff;
+        border-radius: 5px;
+        margin-bottom: 6vw;
+    }
+
     span{
-        font-size: 5vw;
+        font-size: 6vw;
         position: relative;
         left: 0vw;
     }
